@@ -27,6 +27,13 @@ public class EmployeeWage {
 
         {
             System.out.println("Welcome to Employee Wage Computation Program on Master Branch");
+            Random att = new Random();
+            int a = att.nextInt(2);
+            if (a == 0) {
+                System.out.println("employee is absent");
+            } else {
+                System.out.println("employee is present");
+            }
         }
     }
 }
