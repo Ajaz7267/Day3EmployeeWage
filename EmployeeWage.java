@@ -34,6 +34,11 @@ public class EmployeeWage {
             } else {
                 System.out.println("employee is present");
             }
+            //UC2
+            int wagePerHour = 20;
+            int fullDay = 8;
+            int dailyWage = (wagePerHour * fullDay);
+            System.out.println("Daily employee Wage is  " + dailyWage);
         }
     }
 }
