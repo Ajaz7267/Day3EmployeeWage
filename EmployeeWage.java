@@ -44,6 +44,16 @@ public class EmployeeWage {
             int partTimeHour = 8;
             int partimeWage = (partTimeWage * partTimeHour);
             System.out.println("Part time wage is  " + partimeWage);
+
+            //UC4
+            switch (a) {
+                case 0:
+                    System.out.println("Absent");
+                    break;
+                case 1:
+                    System.out.println("Present");
+                    break;
+            }
         }
     }
 }
